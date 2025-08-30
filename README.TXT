@@ -1,43 +1,12 @@
 Project "figures"
-Authors: Michael Kölling and David J. Barnes
 
-This project is part of the material for the book
+2. If you call moveDown, the object will move down by 20 units (or pixels), as is indicated in the Java code of the objects (for both Circle & Square)
+No matter how many times you call it, it will always move down my 20 pixels each time it's called (20 => 40 => 60)
+Calling makeInvisible simply doesn't do anything if the object was already invisible to begin with. If you have previously called makeVisible, then it will become invisible. 
+However, if makeVisible hasn't been called beforehand, then no changes will occur no matter the amount of times that makeInvisible is called. 
 
-   Objects First with Java - A Practical Introduction using BlueJ
-   Seventh edition
-   David J. Barnes and Michael Kölling
-   Pearson Education
+3. In order to use moveHorizontal to move an object 70 pixels to the left, all we have to do it moveHorizontal(-70);
 
-It is discussed in chapter 1.
+4. If you specify a color that isn't known, it simply cannot change it to said color. However, it should be possible to add any color from the RGB wheel by implementing a few new lines of code.
 
-This is a very simple project to demonstrate some characteristics of
-objects.
-
-You can create various shapes, and you will see, if you do, that those
-shapes are drawn on screen (in a window that we call the "canvas").
-
-You can then manipulate these objects: change their position, size and 
-colour. Try it out: create a few different squares, triangles and circles.
-
-This project is designed as a first example of object-oriented programming.
-It illustrates a number of concepts:
-
- - a Java project (application) is a collection of classes
- - objects can be created from classes
- - from any one class, many objects may be created
- - objects have operations (methods)
- - operations can have parameters
- - parameters have types (at least String and int)
- - objects hold data (fields)
- - the operations and fields are common to all objects
- - the values stored in the fields can be different for each object
-
-The project also demonstrates
-
- - BlueJ object creation
- - interactive method invocation
- - parameter passing
-
-A good second project to look at after this is "picture", which adds a class
-to those ones in this project. That class (named "Picture") uses the shapes
-to draw a picture. It can be used to experiment with coding.
+5. For the image, I decided to merge both refrences and drew a house on top of a hill with two stick figures (person) standing in fornt of it.
